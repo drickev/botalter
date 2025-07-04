@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const dataPath = path.join(__dirname, "../../data/roles.json");
-const cooldownPath = path.join(__dirname, "../../data/cooldown.json");
+const dataPath = path.join(__dirname, "./roles.json");
+const cooldownPath = path.join(__dirname, "./cooldown.json");
 const COOLDOWN_DURATION = 1200 * 1000; // durasi cooldown dalam ms (contoh: 60 detik)
 
 function loadRoles() {
